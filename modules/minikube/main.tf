@@ -5,6 +5,6 @@ resource "minikube_cluster" "cluster" {
   cpus              = var.cpus
   memory            = var.memory
   disk_size         = var.disk_size
-
+  nodes             = 3
   addons = var.addons
 }

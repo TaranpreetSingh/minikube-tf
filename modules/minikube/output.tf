@@ -3,6 +3,5 @@ output "cluster_info" {
   value = {
     name              = minikube_cluster.cluster.cluster_name
     kubernetes_version = minikube_cluster.cluster.kubernetes_version
-    status            = minikube_cluster.cluster.status
   }
 }

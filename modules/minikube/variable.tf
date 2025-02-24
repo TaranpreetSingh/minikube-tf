@@ -28,3 +28,9 @@ variable "addons" {
   type        = list(string)
   default     = []
 }
+
+variable "set_current_context" {
+  type        = bool
+  default     = true
+  
+}
