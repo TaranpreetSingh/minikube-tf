@@ -28,3 +28,15 @@ variable "addons" {
   type        = list(string)
   default     = []
 }
+
+variable "set_current_context" {
+  type        = bool
+  default     = true
+  
+}
+variable "kubeconfig_path" {
+  description = "Path to save the kubeconfig file"
+  type        = string
+  default     = "./kube/config"
+  
+}
