@@ -1,5 +1,5 @@
 module "minikube_cluster" {
-  source = "./modules/minikube"
+  source = "./modules/minikube1"
 
   cluster_name       = var.cluster_name
   kubernetes_version = var.kubernetes_version
