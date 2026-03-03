@@ -1,4 +1,4 @@
-# minikube-tf
+## minikube-tf
 This repo is used to deploy minikube using terraform
 
 # Project Structure
